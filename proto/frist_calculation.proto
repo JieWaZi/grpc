@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "proto";
+
+import "google/api/annotations.proto";
+
+message AddCalculationRequest {
+    int32 first = 1;
+    int32 second = 2;
+}
+
+message AddCalculationResponse {
+    int32 result = 1;
+}
+
+
+service FirstCalculationService {
+
+    rpc AddCalculation (AddCalculationRequest) returns (AddCalculationResponse) {
+        option (google.api.http) = {
+           post: "/calculation/add"
+           body: "*"
+        };
+    };
+}

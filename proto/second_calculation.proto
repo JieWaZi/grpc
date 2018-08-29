@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "proto";
+
+import "google/api/annotations.proto";
+
+message SubCalculationRequest {
+    int32 first = 1;
+    int32 second = 2;
+}
+
+message SubCalculationResponse {
+    int32 result = 1;
+}
+
+
+service SecondCalculationService {
+
+    rpc SubCalculation (SubCalculationRequest) returns (SubCalculationResponse) {
+        option (google.api.http) = {
+           post: "/calculation/sub"
+           body: "*"
+        };
+    };
+}

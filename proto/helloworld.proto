@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option go_package = "proto";
+
+package helloworld;
+
+service Message {
+    rpc SendMessage (SendMessageRequest) returns (SendMessageResponse) {}
+}
+
+message SendMessageRequest {
+    string toWho = 1;
+    string message = 2;
+}
+
+message SendMessageResponse {
+    string fromWho = 1;
+    string message = 2;
+}
