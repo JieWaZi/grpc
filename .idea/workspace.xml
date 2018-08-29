@@ -4,7 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc0d5d8-0699-404a-8ed8-9681751fb10a" name="Default" comment="" />
+    <list default="true" id="3cc0d5d8-0699-404a-8ed8-9681751fb10a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,56 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="second_calculation_server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go">
+      <file leaf-file-name="register.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/consul/register.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_first_service.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_first_service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_second_service.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_second_service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="second_calculation.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proto/second_calculation.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first_calculation_server.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proxy_with_consul.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="-401">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#16#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +41,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="31" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frist_calculation.pb.gw.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proto/frist_calculation.pb.gw.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="100" column="97" selection-start-line="100" selection-start-column="97" selection-end-line="100" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../grpc-ecosystem/grpc-gateway/runtime/errors.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy_with_consul.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mux.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../grpc-ecosystem/grpc-gateway/runtime/mux.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1933">
+              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,6 +100,9 @@
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -127,16 +131,18 @@
         <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/main1.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/server/rpcserver.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/main.go" />
-        <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go" />
         <option value="$PROJECT_DIR$/proto/test.proto" />
         <option value="$PROJECT_DIR$/proto/test1.proto" />
         <option value="$PROJECT_DIR$/scripts/stub.sh" />
-        <option value="$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go" />
-        <option value="$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/server/test.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/test1.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/test.go" />
         <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/start_second_service.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go" />
+        <option value="$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go" />
+        <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy.go" />
+        <option value="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go" />
       </list>
     </option>
   </component>
@@ -150,10 +156,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="31" />
+    <option name="x" value="298" />
+    <option name="y" value="103" />
     <option name="width" value="1370" />
     <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -181,28 +190,11 @@
             <path>
               <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="grpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -245,29 +237,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test1.go">
-    <configuration name="go build main1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build proxy_with_consul.go">
+    <configuration name="go build proxy_with_consul.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/api/grpc-gateway/proxy/main1.go" />
+      <filePath value="$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build start_first_service.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/api/grpc-gateway/proxy/main.go" />
+      <filePath value="$PROJECT_DIR$/api/grpc-gateway/proxy/start_first_service.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build rpcserver.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build start_second_service.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/api/grpc-gateway/rpcserver.go" />
+      <filePath value="$PROJECT_DIR$/api/grpc-gateway/proxy/start_second_service.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -287,33 +279,33 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (2)" />
-      <item itemvalue="Go Build.go build rpcserver.go" />
-      <item itemvalue="Go Build.go build main1.go" />
       <item itemvalue="Go Build.go build test.go" />
       <item itemvalue="Go Build.go build test1.go" />
+      <item itemvalue="Go Build.go build start_first_service.go" />
+      <item itemvalue="Go Build.go build start_second_service.go" />
+      <item itemvalue="Go Build.go build proxy_with_consul.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build proxy_with_consul.go" />
+        <item itemvalue="Go Build.go build start_second_service.go" />
+        <item itemvalue="Go Build.go build start_first_service.go" />
         <item itemvalue="Go Build.go build test1.go" />
         <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build rpcserver.go" />
-        <item itemvalue="Go Build.go build main1.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="31" width="1370" height="797" extended-state="0" />
+    <frame x="298" y="103" width="1370" height="797" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50037396" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962604" visible="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.18825302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2242857" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.15210843" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Inspection Results" />
       <window_info anchor="right" id="Database" order="3" />
@@ -363,21 +355,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/flag/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="809" selection-start-line="809" selection-end-line="809" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/rpc/client_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/rpc/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-715" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proto/google/protobuf/struct.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252" />
@@ -486,16 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-4300">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../bzy-ai/rpc-mesh/server/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -521,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../grpc-ecosystem/grpc-gateway/runtime/mux.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="141" selection-start-line="141" selection-end-line="144" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -602,16 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/consul/register.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="e#16#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -633,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/proxy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proto/helloworld.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -654,6 +597,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="284">
+            <caret line="335" column="14" lean-forward="true" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_first_service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_second_service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proto/second_calculation.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/proxy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="e#14#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../grpc-ecosystem/grpc-gateway/runtime/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1933">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/consul/register.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#16#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proto/frist_calculation.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -661,45 +687,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proto/second_calculation.proto">
+    <entry file="file://$PROJECT_DIR$/../grpc-ecosystem/grpc-gateway/runtime/errors.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/first_calculation_server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/server/second_calculation_server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="-124">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/proxy_with_consul.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="-7">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_first_service.go">
+    <entry file="file://$PROJECT_DIR$/proto/frist_calculation.pb.gw.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/grpc-gateway/proxy/start_second_service.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="347">
+          <caret line="100" column="97" selection-start-line="100" selection-start-column="97" selection-end-line="100" selection-end-column="97" />
         </state>
       </provider>
     </entry>

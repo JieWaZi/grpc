@@ -11,12 +11,13 @@ import (
 	"log"
 	"github.com/grpc/api/consul"
 	_ "github.com/grpc/api/grpc-gateway/server"
+	"fmt"
 )
 
 var (
 	reg  = flag.String("server", "127.0.0.1:8500", "consul address")
 	host = flag.String("proxy_host", "127.0.0.1", "register host")
-	port = flag.Int("proxy_host", 8989, "register port")
+	port = flag.String("proxy_port", "8989", "register port")
 )
 
 func run() error {
@@ -26,7 +27,7 @@ func run() error {
 
 	mux := newGateway(ctx)
 
-	return http.ListenAndServe(":8989", mux)
+	return http.ListenAndServe(fmt.Sprintf("%s:%s", *host, *port), mux)
 }
 
 // 将HTTP请求的服务转为GRPC，即使用GRPC生成的Handler
