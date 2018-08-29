@@ -22,12 +22,12 @@ func (s *FirstCalculationService) AddCalculation(ctx context.Context, request *p
 func (*FirstCalculationService) Start() {
 	lis, err := net.Listen("tcp", "127.0.0.1:9100")
 	if err != nil {
-		log.Fatal("some wrong")
+		log.Fatal("FirstCalculationService: " + err.Error())
 	}
 	s := grpc.NewServer()
 	pb.RegisterFirstCalculationServiceServer(s, &FirstCalculationService{})
 	if err := s.Serve(lis); err != nil {
-		log.Fatal("some wrong")
+		log.Fatal("FirstCalculationService: " + err.Error())
 	}
 }
 

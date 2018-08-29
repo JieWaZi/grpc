@@ -253,6 +253,8 @@ protoc -I/usr/local/include -I. \
   --grpc-gateway_out=logtostderr=true:. \
   path/to/your_service.proto
 ```
+可直接使用scripts文件夹下的脚本就可以编译proto
+
 
 #### 编写server
 ``` go

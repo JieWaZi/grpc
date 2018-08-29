@@ -22,12 +22,12 @@ func (s *SecondCalculationService) SubCalculation(ctx context.Context, request *
 func (*SecondCalculationService) Start() {
 	lis, err := net.Listen("tcp", "127.0.0.1:9200")
 	if err != nil {
-		log.Fatal("some wrong")
+		log.Fatal("SecondCalculationService: " + err.Error())
 	}
 	s := grpc.NewServer()
 	pb.RegisterSecondCalculationServiceServer(s, &SecondCalculationService{})
 	if err := s.Serve(lis); err != nil {
-		log.Fatal("some wrong")
+		log.Fatal("SecondCalculationService: " + err.Error())
 	}
 }
 

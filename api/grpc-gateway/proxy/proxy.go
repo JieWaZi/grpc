@@ -12,8 +12,8 @@ import (
 )
 
 var (
-	echoEndPoint = flag.String("echo_endpoint", "localhost:9100", "endpoint of YourService")
-	echoEndPoint1 = flag.String("echo_endpoint1", "localhost:9200", "endpoint of YourService")
+	echoEndPoint  = flag.String("FirstCalculationService", "localhost:9100", "endpoint of YourService")
+	echoEndPoint1 = flag.String("SecondCalculationService", "localhost:9200", "endpoint of YourService")
 )
 
 func run1() error {
@@ -23,15 +23,14 @@ func run1() error {
 
 	mux := runtime.NewServeMux()
 	opts := []grpc.DialOption{grpc.WithInsecure()}
-	err := gw.RegisterMessageServiceHandlerFromEndpoint(ctx, mux, *echoEndPoint, opts)
+	err := gw.RegisterFirstCalculationServiceHandlerFromEndpoint(ctx, mux, *echoEndPoint, opts)
 	if err != nil {
 		return err
 	}
-	err = gw.RegisterMessageService1HandlerFromEndpoint(ctx, mux, *echoEndPoint1, opts)
+	err = gw.RegisterSecondCalculationServiceHandlerFromEndpoint(ctx, mux, *echoEndPoint1, opts)
 	if err != nil {
 		return err
 	}
-
 
 	return http.ListenAndServe(":8989", mux)
 
